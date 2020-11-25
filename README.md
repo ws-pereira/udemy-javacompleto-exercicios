@@ -8,11 +8,9 @@
 ### IDE - Eclipse 2020-06
 ![](https://github.com/ws-pereira/udemy-javacompleto-exercicios/blob/main/imagem_IDE_Eclipse.PNG)
 
-
-
-
+###Finalidade do Repositório
 Repositório criado para armazenar os exercícios de cada Seção das aulas do 
 Instrutor - Nelio alves.
 Total de video aulas - 362
 
-É apresentado no curso, notações UML.
+Obs.: apresentado no curso anotações UML.

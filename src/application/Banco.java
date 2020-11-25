@@ -35,13 +35,29 @@ public class Banco {
 		char opDeposito = sc.next().charAt(0);
 		if( opDeposito == 'S' || opDeposito == 's') {
 			System.out.print("Depósito : R$ ");
-			Double deposito = sc.nextDouble();
-			conta = new Conta(nrConta, nomeTitular, deposito);
+			Double valor = sc.nextDouble();
+			conta = new Conta(nrConta, nomeTitular, valor);
 		}
 		else {
 			conta = new Conta(nrConta, nomeTitular);
 		}
 		
+		System.out.println("\nDados da Conta:\n"+conta);
+		
+		// Realizando um depósito
+		System.out.print("Entre com depósito - R$ ");
+		Double valor = sc.nextDouble();
+		conta.deposito(valor);
+		System.out.println();
+		System.out.println("Atualizando dados da conta");
+		System.out.println("\nDados da Conta:\n"+conta);
+		
+		// Realizando um saque
+		System.out.print("Valor a sacar - R$ ");
+		valor = sc.nextDouble();
+		conta.saca(valor);
+		System.out.println();
+		System.out.println("Atualizando dados da conta");
 		System.out.println("\nDados da Conta:\n"+conta);
 		
 		sc.close();

@@ -1,9 +1,11 @@
 # udemy-javacompleto-exercicios
+## Linguagem Java
+### curso Java Completo 2020 - Programação Orientada a Objetos + Projeto.
 
 IDE - Eclipse 2020-06
 ![alt]
 
-Repositório criado para armazenar os exercícios de cada Seção das aulas do curso Java Completo 2020 - Programação Orientada a Objetos + Projeto.
+Repositório criado para armazenar os exercícios de cada Seção das aulas do 
 Instrutor - Nelio alves.
 Total de video aulas - 362
 
